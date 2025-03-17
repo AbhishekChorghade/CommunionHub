@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* 🌙 Dark Mode */
+.dark-mode {
+  background: #181818;
+  color: white;
+}
+
+.dark-mode .header {
+  background: #222;
+}
+
+.dark-mode .event-card {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+.dark-mode .event-form input,
+.dark-mode .event-form select {
+  background: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark-mode .event-form input::placeholder {
+  color: #bbb;
+}
+
+.dark-mode .event-form button {
+  background: linear-gradient(135deg, #ff5e78, #ff3c55);
+}
+
+/* 🌟 Smooth Dark Mode Transition */
+.dark-mode .dark-mode-btn {
+  background: #444;
+  border: none;
+  color: white;
+}

@@ -1,0 +1,40 @@
+.event-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* ✨ Modern Input Fields */
+.event-form input,
+.event-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.event-form input:focus,
+.event-form select:focus {
+  border-color: #6e8efb;
+  outline: none;
+  box-shadow: 0 0 8px rgba(110, 142, 251, 0.5);
+}
+
+/* 🚀 Attractive Button */
+.event-form button {
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.event-form button:hover {
+  background: linear-gradient(135deg, #ff5e78, #ff3c55);
+  transform: scale(1.05);
+}
